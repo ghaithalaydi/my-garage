@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <h1>My Car Garage</h1>
+    </section>
+
+    <div id=left>
+        <fieldset>
+            <form id="my-form">
+                <label for="name">Car Name <br>
+                    <input type="text" name="name" id="name">
+                </label> <br> <br>
+                <label for="model"> Category Model <br>
+                    <select name="model" id="model">
+                        <option value="bmw.png"> BMW</option>
+                        <option value="chevrolet.png"> Chevrolet</option>
+                        <option value="kia.png"> Kia</option>
+                        <option value="lexus.png"> Lexus</option>
+                        <option value="tesla.png"> Tesla</option>
+                        <option value="toyota.png"> Toyota</option>
+                    </select> <br><br>
+                </label>
+                <label for="year"> Model Year <br>
+                    <select name="year" id="year">
+                        <option value="2016"> 2016</option>
+                        <option value="2017"> 2017</option>
+                        <option value="2018"> 2018</option>
+                        <option value="2019"> 2019</option>
+                        <option value="2020"> 2020</option>
+                        <option value="2021"> 2021</option>
+                    </select> <br>
+                </label>
+                <br><br>
+                <input type="submit" value="Submit" id="submit">
+
+            </form>
+        </fieldset>
+    </div>
+    <div id=right>
+        <table id="rendering"></table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
